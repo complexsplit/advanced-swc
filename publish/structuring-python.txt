@@ -304,8 +304,8 @@ in f().
 >>> print x
 1
 
-In this third example, g() overrides x, and h() obtains x from within g(),
-because h() was *defined* within g():
+In this third example, outer() overrides x, and inner() obtains x from within outer(),
+because inner() was *defined* within outer():
 
 >>> x = 1
 
